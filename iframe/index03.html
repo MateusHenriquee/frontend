@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        #tela{
+            width: 100vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>Faça uma escolha</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus earum, omnis commodi tempore corrupti nemo, dignissimos quibusdam a deleniti qui ab quaerat reiciendis eaque recusandae possimus adipisci delectus tempora?</p>
-    <ul>
-        <a href="paginasextras/pagina001.html">
-            <li>Primeira Página</li>
-        </a>
-        <a href="paginasextras/pagina002.html">
-            <li>Segunda Página</li>
-        </a>
-        <a href="paginasextras/pagina003.html">
-            <li>Terceira Página</li>
-        </a>
-        <img src="" alt="">
-    </ul>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, earum quia odio dicta maxime, pariatur ullam dolorum porro illo blanditiis similique aliquid, molestiae corrupti minima enim eius tempora. Dolores, expedita.</p>
-    <iframe id="tela" name="frame" srcdoc="<h1>Faça uma escolha</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus earum, omnis commodi tempore corrupti nemo, dignissimos quibusdam a deleniti qui ab quaerat reiciendis eaque recusandae possimus adipisci delectus tempora?</p>"> 
-        <p>seu navegador não é compatível</p>
-    </iframe>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio delectus nihil aliquid, neque, optio exercitationem ipsum veniam ratione fugit quaerat odit ea aliquam distinctio placeat dignissimos numquam sint! Ratione, veniam!
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo repudiandae in quia sequi facere, delectus quo quos ipsam autem alias ipsa magnam dolore soluta quibusdam, voluptas eligendi saepe vel optio?</p>
 
+    <ul>
+        <li><a href="paginasextras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginasextras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginasextras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed at veniam magni? Ratione aliquid eveniet ab possimus itaque blanditiis nihil, tenetur iusto quae illum laboriosam laborum suscipit, tempore commodi inventore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quis quisquam odit ipsa sapiente dolore explicabo, dicta repellat magni quaerat perferendis voluptatem illo repudiandae deleniti error ad molestias dolorum numquam!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto eos temporibus veniam minus earum corrupti maiores autem alias ducimus magnam voluptates, labore officia saepe eius cumque doloribus atque repellat obcaecati!</p> " ><!--dentro das aspas duplas do srcdoc tem que ser aspas simples-->
+       
+        <p>Infelizmente seu navegador não é compátivel com isso.</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolorem accusantium quasi earum repudiandae? Placeat quaerat exercitationem magni voluptates delectus nam fugiat odio quidem, at nisi molestiae, tenetur, dolorem corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. At nesciunt, hic quos blanditiis doloremque iure recusandae laboriosam quam dolorem aperiam fugit cupiditate. Omnis, enim magni doloribus dignissimos facere adipisci aspernatur.</p>
 </body>
 </html>
